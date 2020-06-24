@@ -25,6 +25,7 @@ func connect()  string{
 	return "login=" + user + "&passwd=" + password
 }
 
+// making useless commit
 func main() {
 	dir, err := os.Getwd()
 	if err != nil {
