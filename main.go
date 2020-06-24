@@ -23,6 +23,10 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+	loop: for {
+		fmt.Println("asd")
+		continue loop
+	}
 	//dir+"/httpResp/unsubHTML/unsubscribed.png"
 	fmt.Println(dir)
 	http.HandleFunc("/", func(writer http.ResponseWriter, request *http.Request) {
