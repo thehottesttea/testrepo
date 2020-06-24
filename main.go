@@ -18,15 +18,19 @@ func handler(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "UWU", r.URL.Path[1:])
 }
 
+func connect()  string{
+	user := "root"
+	password:= "supersecret" // Noncompliant
+
+	return "login=" + user + "&passwd=" + password
+}
+
 func main() {
 	dir, err := os.Getwd()
 	if err != nil {
 		log.Fatal(err)
 	}
-	loop: for {
-		fmt.Println("asd")
-		continue loop
-	}
+
 	//dir+"/httpResp/unsubHTML/unsubscribed.png"
 	fmt.Println(dir)
 	http.HandleFunc("/", func(writer http.ResponseWriter, request *http.Request) {
