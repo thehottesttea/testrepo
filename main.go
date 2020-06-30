@@ -18,13 +18,6 @@ func handler(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "UWU", r.URL.Path[1:])
 }
 
-func connect()  string{
-	user := "root"
-	password:= "supersecret" // Noncompliant
-
-	return "login=" + user + "&passwd=" + password
-}
-
 // making useless commit
 func main() {
 	dir, err := os.Getwd()
