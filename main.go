@@ -21,6 +21,8 @@ func handler(w http.ResponseWriter, r *http.Request) {
 
 // making another useless commit
 // making useless commit
+// useless commit to check hd
+
 func main() {
 	dir, err := os.Getwd()
 	if err != nil {
