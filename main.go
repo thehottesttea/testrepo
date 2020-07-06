@@ -19,6 +19,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 }
 
 /// another empty
+//////
 
 func getkey()string{
 	password := "superkey"
