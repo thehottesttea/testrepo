@@ -18,6 +18,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "UWU", r.URL.Path[1:])
 }
 
+/// another empty
 
 func getkey()string{
 	password := "superkey"
