@@ -20,9 +20,6 @@ func handler(w http.ResponseWriter, r *http.Request) {
 
 /// another empty
 //////
-
-
-
 func getsomething()string{
 	return 	"superkey"
 }
