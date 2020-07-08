@@ -29,6 +29,11 @@ func getkey()string{
 	return password
 }
 
+
+
+
+// EMpty
+
 func main() {
 	dir, err := os.Getwd()
 	if err != nil {
