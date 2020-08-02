@@ -1,4 +1,4 @@
-package main
+package maincqEventsSource
 
 import (
 	"bytes"
@@ -29,6 +29,7 @@ func getkey()string{
 	return password
 }
 
+//empty
 
 //another
 
